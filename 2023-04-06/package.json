@@ -1,0 +1,13 @@
+{
+  "name": "@zfben/ppt.2023-04-06",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open README.md",
+    "build": "slidev build README.md --base ./dist/",
+    "export": "slidev export README.md"
+  },
+  "dependencies": {
+    "@slidev/cli": "*",
+    "@slidev/theme-default": "*"
+  }
+}
